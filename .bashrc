@@ -133,3 +133,7 @@ testbot() {(
     cd ~/github/TestServer/
     redstart
 )}
+
+ta() {(
+    tmux attach $@
+)}
